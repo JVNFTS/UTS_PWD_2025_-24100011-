@@ -1,0 +1,136 @@
+:root {
+    --pm: #f8c8dc;
+    --pu: #ff69b4;
+    --pt: #d04894;
+    --textl: #333;
+    --bg: #fff0f5;
+    --gradient-bg: linear-gradient(to right, #ff69b4, #d04894);
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  header {
+    background: var(--gradient-bg);
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+
+  .btn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px 12px 30px;
+    background: white;
+    color: var(--pt);
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: var(--pm);
+  }
+
+footer {
+    background: var(--pt);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cta{
+    background: var(--pm);
+    padding: 70px 80px 70px 80px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+  body {
+    background: var(--bg);
+    color: var(--textl);
+  }
+
+.search-section{
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+.search-form{
+    height: 100%;
+}
+
+.submit{width: 1000px;}
+
+.features {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    color: var(--pu);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--textl);
+  }
+
+  section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+
+
+
+.feature-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.features {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+
+
+.features h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--textl);
+}
+
+
+
+    
